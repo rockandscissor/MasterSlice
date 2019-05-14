@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "masterslice";
+  src:url("../fonts/masterslice.eot");
+  src:url("../fonts/masterslice.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/masterslice.woff") format("woff"),
+    url("../fonts/masterslice.ttf") format("truetype"),
+    url("../fonts/masterslice.svg#masterslice") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "masterslice" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="mst-icon-"]:before,
+[class*=" mst-icon-"]:before {
+  font-family: "masterslice" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-masterslice:before {
+  content: "\61";
+}
+
+#toplevel_page_ms-theme .wp-menu-image:before {
+	font-family: "masterslice";
+	content: 'a';
+	top: 3px;
+	left: 2px;
+	color: #fff;
+}

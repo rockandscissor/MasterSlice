@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# MasterSlice
+The perfect WordPress boilerplate theme for web developers. Packed full of useful 'slices' that can be included or discarded making MasterSlice one of the most lightweight boilerplate themes.
 
-You can use the [editor on GitHub](https://github.com/MeMattStone/MasterSlice/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Required Plugins
+None at all, MasterSlice lets you use whatever plugins are best for your build. Want to use ACF? Great! Prefer to use Gutenberg? No problem!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Included Features
+The following features are included with MasterSlice and can be used by uncommenting the matching line in `functions/init.php`:
 
-### Markdown
+### CSS and JavaScript Libraries
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* FontAwesome 5 Free or Pro (requires a paid license) - https://fontawesome.com
+* glide.js - https://glidejs.com
+* Hamburgers - https://jonsuh.com/hamburgers/
+* Hover.css - http://ianlunn.github.io/Hover/
+* jQuery Anystretch - https://github.com/danmillar/jquery-anystretch
+* Normalize.css - https://necolas.github.io/normalize.css/
+* PhotoSwipe - http://photoswipe.com
+* SpinKit - http://tobiasahlin.com/spinkit/
 
-```markdown
-Syntax highlighted code block
+### Plugin Integrations
 
-# Header 1
-## Header 2
-### Header 3
+* Advanced Custom Fields - https://wordpress.org/plugins/advanced-custom-fields/
+* Advanced Custom Fields Pro - https://www.advancedcustomfields.com/pro/
+* Polylang - https://wordpress.org/plugins/polylang/
+* Polylang Pro - https://polylang.pro
+* WooCommerce - https://wordpress.org/plugins/woocommerce/
 
-- Bulleted
-- List
+### Service Integrations
 
-1. Numbered
-2. List
+* Facebook
+* Google Analytics
+* Google Maps
+* Google Tag Manager
+* MailChimp
+* Mailgun
+* Mandrill by MailChimp
+* SendGrid
+* Slack
+* Sparkpost
+* Twitter
 
-**Bold** and _Italic_ and `Code` text
+### WordPress Integrations
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MeMattStone/MasterSlice/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Gutenberg Blocks
+* WP-CLI
