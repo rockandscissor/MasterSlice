@@ -42,7 +42,7 @@
   content: "\61";
 }
 
-#toplevel_page_ms-theme .wp-menu-image:before {
+#toplevel_page_mst-theme .wp-menu-image:before {
 	font-family: "masterslice";
 	content: 'a';
 	top: 3px;
